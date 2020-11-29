@@ -1,0 +1,329 @@
+html {
+    height: 1024px;
+}
+
+body {
+    background-image: url(images/Background.jpg);
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    background-color: #373a3c;
+    opacity: 0.7;
+    position: absolute;
+    width: 100%;
+    height: 75px;
+    left: 0px;
+    top: 0px;
+    vertical-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 16px;
+}
+
+.navbar-nav {
+    display: table;
+    width: 100%;
+    margin: 0;
+}
+
+.navbar-nav>li {
+    float: none;
+    display: table-cell;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 16px;
+}
+
+.signature1 {
+    position: absolute;
+    width: 755px;
+    height: 151px;
+    left: 574px;
+    top: 644px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 50px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #000000;
+}
+
+.btn.btn-dark {
+    position: absolute;
+    width: 352px;
+    height: 82px;
+    left: 776px;
+    top: 830px;
+    font-size: 35px;
+    font-family: 'Montserrat';
+    line-height: 50px;
+    background-color: rgba(55, 58, 60, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px inset;
+    border-radius: 1px;
+}
+
+body.menu {
+    background-image: url(images/Background_1.png);
+}
+
+.text_2 {
+    position: absolute;
+    font-family: Montserrat;
+    font-size: 30px;
+    text-align: center;
+    width: 215px;
+    height: 70px;
+    left: 540px;
+    top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background: rgba(55, 58, 60, 0.74);
+}
+
+.text_1 {
+    position: absolute;
+    font-family: Montserrat;
+    font-size: 30px;
+    width: 600px;
+    height: 70px;
+    left: 400px;
+    top: 148px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background: rgba(55, 58, 60, 0.74);
+}
+
+.card_title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 19px;
+    font-family: 'Montserrat';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.card_salad {
+    position: absolute;
+    width: 245px;
+    height: 230px;
+    left: 80px;
+    top: 300px;
+    background: rgba(130, 239, 79, 0.6);
+    border: 15px inset rgba(130, 239, 79, 0);
+    box-sizing: border-box;
+}
+
+.card_soap {
+    position: absolute;
+    width: 245px;
+    height: 230px;
+    left: 83px;
+    top: 300px;
+    background: rgba(130, 239, 79, 0.6);
+    border: 15px inset rgba(130, 239, 79, 0);
+    box-sizing: border-box;
+}
+
+.card_dessert {
+    position: absolute;
+    width: 245px;
+    height: 230px;
+    left: 100px;
+    top: 300px;
+    background: rgba(130, 239, 79, 0.6);
+    border: 15px inset rgba(130, 239, 79, 0);
+    box-sizing: border-box;
+}
+
+.card-text {
+    position: absolute;
+    width: 238px;
+    height: 35px;
+    left: 40px;
+    top: 190px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.btn.btn-secondary {
+    position: absolute;
+    top: 230px;
+    left: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: rgba(55, 58, 60, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1px;
+}
+
+.card_1 {
+    position: absolute;
+    width: 245px;
+    height: 330px;
+    left: 60px;
+    top: 290px;
+    background: rgba(130, 239, 79, 0.6);
+    border: 15px inset rgba(130, 239, 79, 0);
+    box-sizing: border-box;
+}
+
+.card_2 {
+    position: absolute;
+    width: 245px;
+    height: 330px;
+    left: 80px;
+    top: 290px;
+    background: rgba(130, 239, 79, 0.6);
+    border: 15px inset rgba(130, 239, 79, 0);
+    box-sizing: border-box;
+}
+
+.card_3 {
+    position: absolute;
+    width: 245px;
+    height: 330px;
+    left: 100px;
+    top: 290px;
+    background: rgba(130, 239, 79, 0.6);
+    border: 15px inset rgba(130, 239, 79, 0);
+    box-sizing: border-box;
+}
+
+form {
+    position: absolute;
+    height: 100%;
+    width: 530.92px;
+    left: 440px;
+    top: 289px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.form-control {
+    border: 1px inset rgba(130, 239, 79, 0);
+    background: rgba(55, 58, 60, 0.74);
+    border-radius: 1px;
+}
+
+.btn.btn-order {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 170px;
+    top: 445px;
+    font-size: 35px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 21px;
+    background-color: rgba(55, 58, 60, 0.7);
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px inset;
+    border-radius: 1px;
+}
+
+form-basket {
+    position: absolute;
+    width: 100%;
+    top: 289px;
+    color: black;
+    font-weight: bold;
+}
+
+.btn.btn-basket {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    right: 58px;
+    top: 740px;
+    font-size: 35px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background-color: rgba(55, 58, 60, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px inset;
+    border-radius: 1px;
+}
+
+.text_5 {
+    margin-top: 50px;
+}
+
+.text_3 {
+    position: absolute;
+    font-family: Montserrat;
+    font-size: 20px;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 100px;
+    margin-top: 50px;
+}
+
+.text_4 {
+    position: absolute;
+    font-family: Roboto;
+    font-size: 20px;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    margin-top: 50px;
+}
+
+.btn.btn-outline-dark {
+    background-color: #FFFFFF;
+    border: 5px bold;
+    border-radius: 50%;
+}
+
+.description_news {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 17px;
+    color: black;
+    text-align: center;
+    margin-top: 230px;
+    margin-left: 20%;
+    margin-right: 20%;
+    line-height: 1.5;
+}
